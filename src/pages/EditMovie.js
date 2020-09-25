@@ -35,7 +35,6 @@ class EditMovie extends Component {
     const { isLoading, shouldRedirect, movie } = this.state;
 
     if (shouldRedirect) return <Redirect to="/react-app/" />;
-    if (isLoading) return <Loading />;
 
     return (
       <div data-testid="edit-movie" className="form-body">
