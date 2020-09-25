@@ -154,7 +154,7 @@ body {
 
 /* Referência Spinner: Luiz Simões http://luizsimoes.github.io/ */
 .spinner {
-  animation: spin 0.5s linear infinite;
+  animation: spin 1s linear infinite;
   border: 8px solid rgba(0, 0, 0, 0.1);
   border-left-color: green;
   border-radius: 50%;
