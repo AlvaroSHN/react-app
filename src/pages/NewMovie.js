@@ -30,12 +30,12 @@ class NewMovie extends Component {
   render() {
     const { shouldRedirect } = this.state;
 
-    if (shouldRedirect) return <Redirect to="/" />;
+    if (shouldRedirect) return <Redirect to="/react-app/" />;
 
     return (
       <div data-testid="new-movie" className="form-body">
         <MovieForm onSubmit={this.handleSubmit} />
-        <Link className="form-button-back" to="/">VOLTAR</Link>
+        <Link className="form-button-back" to="/react-app/">VOLTAR</Link>
       </div>
     );
   }
